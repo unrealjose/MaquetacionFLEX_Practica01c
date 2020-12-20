@@ -1,0 +1,121 @@
+/*Jose Andres Sanchez Perez*/
+
+
+/*Caracteristicas generales: margenes 0, fuente Font google, tamaño de fuente responsive*/
+
+  /* BOX-SIZING para calcular directamente todas las dimensiones de las cajas */
+* {
+    box-sizing: border-box;
+  }
+
+  /* RESETEO LIMITADO DE PROPIEDADES margen 0*/
+  h1,
+  h4,
+  div,
+  p {
+    margin: 0px;
+  }
+  
+
+/*Aspecto especifico*/
+  /* classe .container - fuente, color, 80% ancho y centrado*/
+
+  .container {
+    color: #19b813;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  /*color de la letra específico*/
+
+  /*La cabecera*/
+  
+  header {
+    text-align: center;
+    width: 100%; 
+    padding: 10px;
+  }
+
+/* El contenedor flex para la primera fila de contenido .content_wrapper. Dirección, El ajuste,
+ Alineación horizontal, Alineación vertical   */
+
+ .content_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  margin-bottom: 10px;
+}
+
+  /* El menú */
+  nav {
+    padding: 10px;
+    width: 10%;
+  }
+  
+  nav div {
+    margin-bottom: 10px;
+  }
+
+  /* El elemento principal main*/
+  main {
+    border: 1px solid;
+    border-radius: 10px;
+    height: max-content;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+  }
+  
+  main img {
+    border-radius: 10px;
+    height: 65%;
+    width: 80%;
+  }
+  
+  #articulo2 {
+    height: max-content;
+  }
+
+  /* Artículo. Imágenes pequeñas */
+  article {
+    border: 1px solid;
+    border-radius: 10px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .articles {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+  }
+  
+  article img {
+    border-radius: 10px;
+    height: 60%;
+    width: 100%;
+  }
+
+/* El contenedor flex para la segunda fila de contenido .articles. Dirección, El ajuste,
+ Alineación horizontal, Alineación vertical   */
+
+/* Pie de la página */
+
+footer {
+  align-items: center;
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+footer img {
+  width: 50px;
+}
+
+/* El contenedor flex para la tercera fila de contenido footer. Dirección, El ajuste,
+ Alineación horizontal, Alineación vertical   */

@@ -3,7 +3,7 @@
 #### Contenido de la publicación
 #### Desarrollo del proyecto
 #### Despliegue(link a la página principal)
-[Pagina Web](https://github.com/unrealjose/MaquetacionFLEX_Practica01c/blob/main/mflexP01_SanchezPerezJoseAndres.html)
+[Pagina Web](mflexP01_SanchezPerezJoseAndres.html)
 #### Construido con
 [Visual Studio Code](https://code.visualstudio.com)
 #### Versionado
